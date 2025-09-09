@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: burlywood;
+        width: 35%;
+      }
+      .p1 {
+        margin: 5px;
+      }
+      body {
+        background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+        font-family: sans-serif;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        min-height: 100vh;
+      }
+      .prices {
+        width: 100%;
+      }
+      .prices td {
+        padding: 10px;
+      }
+      .prices2 {
+        width: 100%;
+      }
+      .prices2 td {
+        padding: 10px;
+      }
+      .h1 {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        font-size: 50px;
+      }
+      .h2 {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        font-size: 35px;
+      }
+      .image1 {
+        display: flex;
+        flex-direction: column;
+      }
+      .h3 {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        font-size: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h1">CAMPER CAFE</h1>
+      <p class="p1">Est. 2020</p>
+      <hr style="border: 2px solid brown" ; width="90%" />
+      <div class="image1">
+        <h2 class="h2">Coffee</h2>
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg"
+          alt="coffee icon"
+        />
+      </div>
+      <table class="prices">
+        <tr>
+          <td>French Vanilla</td>
+          <td style="text-align: right">3.00</td>
+        </tr>
+        <tr>
+          <td>Caramel Macchiato</td>
+          <td style="text-align: right">3.75</td>
+        </tr>
+        <tr>
+          <td>Pumpkin Spice</td>
+          <td style="text-align: right">3.50</td>
+        </tr>
+        <tr>
+          <td>Hazelnut</td>
+          <td style="text-align: right">4.00</td>
+        </tr>
+        <tr>
+          <td>Mocha</td>
+          <td style="text-align: right">4.50</td>
+        </tr>
+      </table>
+      <h3 class="h3">Desserts</h3>
+      <img
+        src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg"
+        alt="Pie icon"
+      />
+      <table class="prices2">
+        <tr>
+          <td>Donut</td>
+          <td style="text-align: right">1.50</td>
+        </tr>
+        <tr>
+          <td>Cherry Pie</td>
+          <td style="text-align: right">2.75</td>
+        </tr>
+        <tr>
+          <td>Cheesecake</td>
+          <td style="text-align: right">3.00</td>
+        </tr>
+        <tr>
+          <td>Cinnamon Roll</td>
+          <td style="text-align: right">2.50</td>
+        </tr>
+      </table>
+      <hr style="border: 2px solid brown" ; width="90%" />
+      <p><i>Made by O.Nurbakhyt</i></p>
+    </div>
+  </body>
+</html>
